@@ -11,7 +11,7 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ title, price, features, message }) => {
-  const whatsappLink = `https://wa.me/923000000000?text=${encodeURIComponent(message)}`;
+  const whatsappLink = `https://wa.me/923292566019?text=${encodeURIComponent(message)}`;
 
   return (
    <>
@@ -49,7 +49,7 @@ const CardsList: React.FC = () => {
 title="Unlock the Best SEO Tools for Success!"
 subtitle="Get access to top-tier SEO tools at the most affordable prices."
 buttonText="Explore Now"
-buttonLink="/seo-tools"
+buttonLink="/https://wa.me/923292566019"
 bgGradient="from-blue-600 to-blue-800"
 image1="/seo-tools.png"
 image2="/rank-tracking.png"

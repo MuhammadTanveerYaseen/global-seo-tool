@@ -28,10 +28,10 @@ const Header: React.FC = () => {
         <motion.div whileHover={{ scale: 1.1, rotate: 5 }} transition={{ duration: 0.3 }}>
           <Link href="/">
             <Image
-              src="/header.PNG"
+              src="/logo.jpeg"
               alt="Global SEO TOOLS Logo"
-              width={150}
-              height={50}
+              width={60}
+              height={20}
               className="cursor-pointer"
             />
           </Link>

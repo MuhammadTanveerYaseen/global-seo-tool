@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
           className="text-center md:text-left"
         >
           <Image
-            src="/footer.PNG"
+            src="/logo.jpeg"
             alt="Global SEO TOOLS Logo"
             width={150}
             height={50}
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
 
           <div>
             <h3 className="text-lg font-bold mb-2">Get In Touch</h3>
-            <p>📧 info@globalseotools.com</p>
+            <p>📧 globaltoolshub@gmail.com</p>
             <p>📞 +923292566019</p>
             <p>💬 WhatsApp: +923256629019</p>
           </div>
@@ -96,10 +96,10 @@ const Footer: React.FC = () => {
       {/* Social Media Icons */}
       <div className="mt-10 flex justify-center space-x-6">
         {[
-          { icon: FaFacebookF, link: "#" },
+          { icon: FaFacebookF, link: "https://www.facebook.com/share/18pFxECbGe" },
           { icon: FaLinkedinIn, link: "#" },
           { icon: FaTwitter, link: "#" },
-          { icon: FaWhatsapp, link: "#" },
+          { icon: FaWhatsapp, link: "https://whatsapp.com/channel/0029VaxokTxHLHQeHyklWD2U" },
         ].map((social, index) => (
           <motion.a
             key={index}

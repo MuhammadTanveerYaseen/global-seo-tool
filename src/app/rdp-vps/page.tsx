@@ -14,7 +14,7 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ title, price, features, image, message }) => {
-  const whatsappLink = `https://wa.me/923000000000?text=${encodeURIComponent(message)}`;
+  const whatsappLink = `https://wa.me/923292566019?text=${encodeURIComponent(message)}`;
 
   return (
     <motion.div
@@ -22,7 +22,7 @@ const Card: React.FC<CardProps> = ({ title, price, features, image, message }) =
       whileTap={{ scale: 0.95 }}
       className="bg-white shadow-lg rounded-2xl p-5 w-80 flex flex-col items-center border border-gray-200 transition-all hover:shadow-xl"
     >
-      <Image src={`/flags/${image}`} alt={title} width={50} height={30} className="mb-2" />
+      <Image src={`/${image}`} alt={title} width={200} height={30} className="mb-2" />
       <h2 className="text-lg font-semibold text-gray-800 mb-2">{title}</h2>
       <p className="text-md font-medium text-gray-600">{price}</p>
       <ul className="text-sm text-gray-700 mt-3 space-y-1">

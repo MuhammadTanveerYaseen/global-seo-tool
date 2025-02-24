@@ -10,10 +10,10 @@ export default function Home() {
       title="Get Premium Tools at the Best Price!"
       subtitle="Access industry-leading tools at unbeatable prices and boost your online success."
       buttonText="Start Now"
-      buttonLink="/pricing"
-      bgGradient="from-green-600 to-green-800"
-      image1="/seo-analysis.png"
-      image2="/keyword-research.png"
+      buttonLink="https://wa.me/923292566019"
+      bgGradient="bg-gray-700"
+      image1="/canva.png"
+      image2="/semrush.png"
     />
  <motion.h1
       className="text-2xl md:text-2xl font-extrabold text-center text-blue-600 mt-10"
